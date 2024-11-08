@@ -1,0 +1,13 @@
+Now my previous code is it ready to push to production: No
+
+For that u have to do alot of processing to push it on production. You need to bundling,code splitting,chunking, image optimization,need to remove the comments, minify the code ,compress it.
+
+What is needed to make you app to go to production
+
+Can react itself do it: There are alot of packages which are required to make production ready app or app fast.
+
+
+npm: Its is not node packages manager.npm manages packages. IT is standart repository for all the packages. Any package that u want to use in your application. U can use npm. All the packages are hosted over there. All the librarries ,utilities comes from npm and npm manages that for you in your project when u create a basic react app , it automaticalky have npm inside it 
+u dont have to configure it.
+
+But we will learn how our project use npm. Lets add npm to our project 

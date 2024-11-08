@@ -1,0 +1,3 @@
+When react was built it was built with a philosiphy that we have to manipulate our DOM using js
+
+The most costly operation in a web page is when DOM nodes need to be manipulated so for that react do this very efficient DOM manipulation  

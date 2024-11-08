@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Namaste React</title>
+</head>
+<body>
+
+
+  <div id="root">
+
+
+  </div>
+
+  <!-- <script> -->
+
+
+    <!-- // We are creating heading inside id name root. And this we are doing we using javascript 
+
+      // const heading = document.createElement("h1");
+
+      // heading.innerHTML = "Hello World From Javascript";
+
+      // const root = document.getElementById("root");
+
+      // root.appendChild(heading);
+
+      // what is this createElement or getElementBy Id. THese are the super powers that browser has. which we call it as API. An API (Application Programming Interface) is like a menu at a restaurant. When you want to order food, you look at the menu, pick what you want, and give your order to the waiter. The waiter then communicates your order to the kitchen and brings back the food you asked for.
+
+// In the same way, an API is a set of rules and instructions that allows one piece of software to talk to another. It’s like a bridge between different apps or services so they can exchange information and work together.
+
+// For example:
+
+// A weather app might use an API to get the current weather data from another service.
+// A website may use an API to process payments through services like PayPal or Stripe.
+
+// But does browser know what is react. ANd also our project also doesnot know what is react. So for that we will get react in our project:
+
+// First way to get react in  our project is by :
+// CDN (content Delivery Networks) :  These are the websites where react has been whosted and we are pulling react from there or CDN is a place where react has been whosted. So we are fetchint that react and putting in our code 
+
+// A CDN (Content Delivery Network) is a system of servers that work together to deliver web content, such as images, videos, and web pages, to users more quickly and efficiently
+
+// React is a javascript library and facebook developers  has written this react 
+
+// There is alot of function or methods inside that react  -->
+
+
+
+
+<!-- </script> -->
+
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+ <!-- Now our broswer will understand react --> 
+
+
+ <!-- First file is the core of the react  -->
+
+ <!-- 2nd is the react library which is useful for DOM operations 
+ 
+ Why there is two different files:
+ 
+ React doesnot work on browser. They also work on mobile phonses. There are different types of place where react is used. So there are differnet function methods which are used in rect native or broswer
+ thats why we have differnet files 
+
+ <!Second file is like a bridge which is used to connect to the DOM . 
+ 
+ There are superpowers which both the files is giving to us and now we will use these superpowers to build large scale applications 
+
+ -->
+
+ <script>
+  // first arg will be tag
+  // second will be object where we give attributes to your tag  
+  // third is the data that u want to put inside that tag
+  // const heading  = React.createElement("h1",{id : "heading"},"Hello world from React!");
+  
+  // Now we have to tell react where is the root where u have to render the stuff or know the root where react can do dom manupilation 
+
+  // React.crate Element is just creating an h1 element inside react that is the core react but when u have to put that element inside DOM then u have to use ReactDOM
+
+  
+  // const heading = React.createElement("h1",{},"Hello world from React");
+
+  // THis object is the place where u will give attributes to your tag 
+
+  // const root = ReactDOM.createRoot(document.getElementById("root"));
+
+
+  // Root is the place where all react code will run. Everything will be rendered inside this root 
+
+  // root.render(heading);
+
+ </script>
+
+ <script src="./app.js"></script>
+
+
+ <!-- When i will put this file app.js above cdn links then it will throw an error -->
+
+ <!-- What if theer is already something inside that root tag.Then it will be replaced by whatevery i am passing by render method  
+
+ <!-- React is js library which  only works in the place where u make the root as . It can work in the independent portion or small portion of your app  like div . It is just giving some methods which we can use to develop fast applications -->
+<!-- U can use react in your existing application no matter what we are using inside that project  -->
+
+</body>
+</html>
